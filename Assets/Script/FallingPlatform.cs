@@ -3,6 +3,7 @@ using UnityEngine;
 public class FallingPlatform : MonoBehaviour
 {
     public float delay = 1f;
+
     private Rigidbody rb;
     private bool isFalling = false;
 
@@ -17,12 +18,13 @@ public class FallingPlatform : MonoBehaviour
         if (collision.gameObject.CompareTag("Player") && !isFalling)
         {
             isFalling = true;
-            Invoke("Fall", delay);
+            Invoke(nameof(Fall), delay);
         }
     }
 
     void Fall()
     {
-        rb.isKinematic = false;
+        rb.isKinematic = false; // เริ่มตก
+        rb.useGravity = true;
     }
 }
