@@ -4,25 +4,44 @@ public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
     public float jumpForce = 8f;
+
     public Rigidbody rb;
+    public Transform cameraTransform;
 
     void Update()
     {
-        float moveX = Input.GetAxis("Horizontal");
-        float moveZ = Input.GetAxis("Vertical");
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
 
-        Vector3 move = new Vector3(moveX, 0, moveZ);
+        // เอาทิศจากกล้อง
+        Vector3 forward = cameraTransform.forward;
+        Vector3 right = cameraTransform.right;
 
-        // คุมความเร็วตรง ๆ
-        Vector3 velocity = rb.linearVelocity;
+        // ไม่เอาแกน Y (กันลอย)
+        forward.y = 0;
+        right.y = 0;
+
+        forward.Normalize();
+        right.Normalize();
+
+        // ทิศเดินตามกล้อง
+        Vector3 move = forward * v + right * h;
+
+        // คุมความเร็ว
+        Vector3 velocity = rb.velocity;
         velocity.x = move.x * speed;
         velocity.z = move.z * speed;
-        rb.linearVelocity = velocity;
+        rb.velocity = velocity;
+
+        // หมุนตัวตามทิศเดิน
+        if (move != Vector3.zero)
+        {
+            transform.forward = move;
+        }
 
         // Jump
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
         {
-            rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0, rb.linearVelocity.z);
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
     }
