@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6112659866381780835}
   - component: {fileID: 4713677661214012588}
   - component: {fileID: 2792402447990706847}
+  - component: {fileID: 4417412892219563388}
   m_Layer: 0
   m_Name: Anchor
   m_TagString: Untagged
@@ -115,6 +116,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BALL
   swingAngle: 90
   speed: 2
+--- !u!65 &4417412892219563388
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5998750047876287481}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.59, y: 1.73, z: 0.11}
+  m_Center: {x: 0, y: -5.32, z: 0}
 --- !u!1001 &6937133871869067297
 PrefabInstance:
   m_ObjectHideFlags: 0
