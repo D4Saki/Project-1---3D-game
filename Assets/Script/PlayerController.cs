@@ -28,10 +28,10 @@ public class PlayerController : MonoBehaviour
         Vector3 move = forward * v + right * h;
 
         // คุมความเร็ว
-        Vector3 velocity = rb.velocity;
+        Vector3 velocity = rb.linearVelocity;
         velocity.x = move.x * speed;
         velocity.z = move.z * speed;
-        rb.velocity = velocity;
+        rb.linearVelocity = velocity;
 
         // หมุนตัวตามทิศเดิน
         if (move != Vector3.zero)
