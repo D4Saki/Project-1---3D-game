@@ -285,8 +285,8 @@ MonoBehaviour:
     Thanks\r\n\r\nCourse Instructor\r\nUnity Engine\r\nSketchfab (Free Assets)\r\n\r\n---\r\n\r\nThank
     You for Playing!\r\n"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: dfbe0031bf75c18448b74c31089832b2, type: 2}
+  m_sharedMaterial: {fileID: 261106591248840728, guid: dfbe0031bf75c18448b74c31089832b2, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
