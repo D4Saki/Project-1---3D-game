@@ -269,21 +269,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "END CREDIT\r\n\r\n---\r\n\r\nProject Team\r\n\r\nGroup Name: [Your Group
-    Name]\r\n\r\n Name: [Your Name]\r\n  Student ID: [Your ID]\r\n  Section: [Section]\r\n 
-    Role: Game Design, Programming\r\n\r\n Name: [Member Name]\r\n  Student ID: [ID]\r\n 
-    Section: [Section]\r\n  Role: Level Design, UI\r\n\r\n Name: [Member Name]\r\n 
-    Student ID: [ID]\r\n  Section: [Section]\r\n  Role: Assets, Testing\r\n\r\n---\r\n\r\nGame
-    Description\r\n\r\nThis is a 3D platformer game where the player must survive
-    through challenging levels filled with obstacles such as:\r\n\r\nFalling Platforms\r\nSpike
-    Traps\r\nSwing Traps\r\n\r\n\r\nThe game applies several physics principles,
-    including:\r\n\r\nNewton\u2019s Laws of Motion (F = ma)\r\nFriction\r\nGravity\r\nCollision
-    Detection\r\nRaycasting\r\n\r\n---\r\n\r\nAI Implementation\r\n\r\nThis project
-    utilizes Generative AI tools to assist in game development, including concept
-    generation and coding support.\r\n\r\n---\r\n\r\nAssets Credits (3D Models)\r\n\r\nSpecial
-    thanks to the creators of free 3D models from Sketchfab:\r\n\r\nhttps://skfb.ly/ouTLA\r\nhttps://skfb.ly/oDrEX\r\nhttps://skfb.ly/6Uz8U\r\nhttps://skfb.ly/ooU69\r\n\r\n---\r\n\r\nSpecial
-    Thanks\r\n\r\nCourse Instructor\r\nUnity Engine\r\nSketchfab (Free Assets)\r\n\r\n---\r\n\r\nThank
-    You for Playing!\r\n"
+  m_text: "END CREDIT\n\n---\n\nProject Team\n\nGroup Name: \u0E2A\u0E21\u0E2D\u0E07\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E14\u0E49\u0E27\u0E22\u0E19\u0E49\u0E3380%\n\n
+    Name: Thunyaphon Amphaphan\n  Student ID: 1670704889 \n  Section: 229B\n  Role:
+    Level Design, UI\n\n Name: Thakrit Punyachaiwut\n  Student ID: 1670705191\n 
+    Section: 229B\n  Role: Game Design, Programming\n\n Name: Sasipim Sayyot \n 
+    Student ID: 1670707163\n  Section: 229B\n  Role: Assets, Testing\n\n---\n\nGame
+    Description\n\nThis is a 3D platformer game where the player must survive through
+    challenging levels filled with obstacles such as:\n\nFalling Platforms\nSpike
+    Traps\nSwing Traps\n\n\nThe game applies several physics principles, including:\n\nNewton\u2019s
+    Laws of Motion (F = ma)\nFriction\nGravity\nCollision Detection\nRaycasting\n\n---\n\nAI
+    Implementation\n\nThis project utilizes Generative AI tools to assist in game
+    development, including concept generation and coding support.\n\n---\n\nAssets
+    Credits (3D Models)\n\nSpecial thanks to the creators of free 3D models from
+    Sketchfab:\n\nhttps://skfb.ly/ouTLA\nhttps://skfb.ly/oDrEX\nhttps://skfb.ly/6Uz8U\nhttps://skfb.ly/ooU69\n\n---\n\nSpecial
+    Thanks\n\nCourse Instructor\nUnity Engine\nSketchfab (Free Assets)\n\n---\n\nThank
+    You for Playing!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dfbe0031bf75c18448b74c31089832b2, type: 2}
   m_sharedMaterial: {fileID: 261106591248840728, guid: dfbe0031bf75c18448b74c31089832b2, type: 2}
